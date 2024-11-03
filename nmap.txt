@@ -1,0 +1,16 @@
+========== NMAP ==========
+
+Se utiliza para ver qué equipos hay dentro de una red y qué puertos tiene abiertos una máquina objetivo
+
+Lo primero es ver mi configuración de red
+-$ ifconfig
+
+de la información arrojada podemos sacar la dirección IP de mi equipo 
+
+ahora utilizamos NMAP para revisar la red
+-$ nmap -O 192.168.0.0/24 dirección IP de mi equipo 
+    (el último grupo de digitos se cambia por '0/24')
+    -O me permite ver qué sistema operativo tienen los equipos 
+
+Una vez ubicada la máquina objetivo ejecutamos los siguientes comandos
+-$ sudo nmap -p- --open -sVC -sC -sV -vvv -n -Pn direccion IP del equipo a vulnerar -oN resultado.txt
