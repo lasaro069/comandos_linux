@@ -1,0 +1,1 @@
+Este documento tiene como finalidad tener a la mano los comandos más utilizados en la liensa de comandos de kali linux
