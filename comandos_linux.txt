@@ -1,0 +1,63 @@
+=================================================================================
+|                                                                                |
+|                                                                                |
+|                                                                                |
+|============ COMANDOS MÁS USADOS EN LA LINEA DE COMANDOS DE LINUX ==============|
+|                                                                                |
+|                                                                                |
+|                                                                                |
+=================================================================================
+Para ingresar como usuario root:
+-$ sudo su
+
+Limpiar la terminal
+-$ clear
+
+Verificar si hay actualizaciones disponibles
+-$ sudo apt-get update
+
+Instalar los paquetes disponibles
+-$ sudo apt-get upgrade
+
+Instalar un programa específico
+-$ sudo apt install nombre_programa Ej: sudo apt install neofetch
+
+Borrar un paquete
+-$ sudo apt remove apt neofetch
+Luego se ejecuta la siguiente linea para borrar archivos residuales del paquee desinstalado
+-$ sudo apt autoremove
+
+========== COMANDOS PARA CARPETAS Y ARCHIVOS ==========
+
+Mostrar listado de archivos del directorio actualizaciones
+-$ ls
+
+Para ingresar en una carpeta del directorio actual
+-$ cd nombre_carpeta
+
+Mostrar la ruta completa del directorio actual
+-$ pwd
+
+Retroceder una carpeta/ubicación
+-$ cd ..
+
+Para eliminar un archivo
+-$ rm nombre_archivo
+
+Para crear un nuevo archivo
+-$ touch nombre_archivo.extension
+
+Modificar el contenido de un archivo
+-$ nano nombre_archivo.extension (abre el documento en un editor de texto plano para edición)
+o puede editarse desde la linea de comandos
+-$ echo "Aquí escribo el texto que quiero insertar en el archivo" > nombre_archivo.extension
+
+Para visualizar el contenido de un archivo
+-$ cat nombre_archivo.extension
+
+Para crear una carpeta/directorio
+-$ mkdir nombre_carpeta
+
+Para eliminar una carpeta y todo su contenido
+-$ rm -r nombre_carpeta
+
