@@ -1,0 +1,11 @@
+============ METASPLOITABLE2 =============
+
+- Descargar la imagen para instalarla en la máquina virtual
+
+- en VB, dar clic en 'nueva', damos nombre 'Metasploitable'
+- tipo: linux
+- version: oracle (64-bit)
+- configurar RAM
+- en Disco Duro: usar un archivo de disco dura virtual existente, seleccionar, añadir. buscar la imagen que descargamos, seleccionar, abrir.
+- Login:    msfadmin
+- Password: msfadmin
